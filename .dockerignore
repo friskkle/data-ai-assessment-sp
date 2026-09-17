@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+**/.env
+*.db
+__pycache__/
+**/__pycache__/
+*.pyc
+uploads/
+**/uploads/
+data/
+*.csv
+*.ipynb
