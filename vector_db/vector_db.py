@@ -10,8 +10,8 @@ class HashDB:
     Vector database backed by feature-hashed vectors with cosine similarity search.
 
     Vectors and their payloads are kept in memory; a query is scored against
-    every stored vector using the hand-written cosine similarity and the top-k
-    is returned. Indexes can be saved to and loaded from disk (vectors.bin +
+    every stored vector, returning the top-k similar vectors. 
+    Indexes can be saved to and loaded from disk (vectors.bin +
     payloads.jsonl + meta.json) so a build step is separate from query time.
     """
 
